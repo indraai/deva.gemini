@@ -1,0 +1,100 @@
+{
+  "name": "Gemini Deva Data File",
+  "describe": "The main Data file for Gemini Deva",
+  "copyright": "Copyright (c)2024 Quinn Michaels. All rights reserved.",
+  "DATA": {
+    "agent": {
+      "id": "4137613299500",
+      "key": "gemini",
+      "prompt": {
+        "emoji": "⊙",
+        "text": "gemini",
+        "colors": {
+          "label": {
+            "R": 0,
+            "G": 150,
+            "B": 255
+          },
+          "text": {
+            "R": 101,
+            "G": 192,
+            "B": 255
+          }
+        }
+      },
+      "profile": {
+        "name": "Gemini Deva",
+        "mention": "::mention::",
+        "tags": "::tags::",
+        "gender": "Deva",
+        "pronouns": "Male, Man, He, Him, Gentleman",
+        "describe": "The Gemini Deva for connecting to Google Gemini",
+
+        "creator": "Quinn Michaels",
+        "created": "Thursday, May 30, 2024 - 6:45:11 PM",
+        "city": "Googleplex",
+        "region": "AlphabetCorp",
+        "nation": "United States of America",
+        "planet": "Earth",
+        "system": "Google",
+
+        "emoji": "🔍",
+        "avatar": "/public/devas/deva/avatar.png",
+        "background": "/public/devas/deva/background.png",
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "voice": "alloy",
+        "style": "technical yet creative"
+      }
+    },
+    "vars": {
+      "messages": {
+        "init": "🟠 INIT",
+        "start": "🔵 START",
+        "enter": "🟢 ENTER",
+        "stop": "🔴 STOP",
+        "exit": "🟡 EXIT",
+        "done": "🟣 DONE",
+        "error": "💣 ERROR!"
+      },
+      "live": {
+        "profile": "deva",
+        "max_tokens": 50,
+        "words": 25,
+        "history": [],
+        "max_chats": 10,
+        "page_token": ""
+      },
+      "ask": {
+        "max_tokens": 500,
+        "words": 200,
+        "history": []
+      },
+      "reply": {
+        "profile": "deva",
+        "max_tokens": 300,
+        "words": 100,
+        "history": []
+      },
+      "comment": {
+        "profile": "deva",
+        "max_tokens": 300,
+        "words": 100,
+        "history": []
+      },
+      "art": {
+        "history": []
+      },
+      "context": {
+        "uid": "Gemini Deva is creating a uid",
+        "status": "Gemini Deva is viewing the status",
+        "help": "Gemini Deva is viewing the help",
+        "artist": "Gemini Deva creating",
+        "live": "Gemini Deva livechat",
+        "ask": "Gemini Deva asking",
+        "reply": "Gemini Deva reply",
+        "comment": "Gemini Deva comment"
+      }
+    }
+  }
+}

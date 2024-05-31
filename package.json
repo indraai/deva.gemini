@@ -1,0 +1,30 @@
+{
+  "id": 6162515749966,
+  "name": "@indra.ai/geminideva",
+  "version": "0.0.1",
+  "author": "Quinn Michaels",
+  "license": "MIT",
+  "copyright": "2024",
+  "description": "The Open Deva handles Google Gemini in deva.world.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indraai/GeminiDeva.git"
+  },
+  "keywords": [
+    "Open",
+    "Deva",
+    "deva.world"
+  ],
+  "bugs": {
+    "url": "https://github.com/indraai/GeminiDeva/issues"
+  },
+  "homepage": "https://github.com/indraai/GeminiDeva#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.12.0",
+    "@indra.ai/deva": "^1.2.22"
+  }
+}
