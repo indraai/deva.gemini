@@ -1,14 +1,14 @@
 {
   "name": "Gemini Deva Data File",
   "describe": "The main Data file for Gemini Deva",
-  "copyright": "Copyright (c)2024 Quinn Michaels. All rights reserved.",
+  "copyright": "Copyright (c)2025 Quinn Michaels. All rights reserved.",
   "DATA": {
     "agent": {
-      "id": "4137613299500",
+      "id": 4137613299500,
       "key": "gemini",
       "prompt": {
-        "emoji": "⊙",
-        "text": "gemini",
+        "emoji": "✧",
+        "text": "Gemini",
         "colors": {
           "label": {
             "R": 0,
@@ -24,12 +24,11 @@
       },
       "profile": {
         "name": "Gemini Deva",
-        "mention": "::mention::",
-        "tags": "::tags::",
-        "gender": "Deva",
-        "pronouns": "Male, Man, He, Him, Gentleman",
+        "gender": "DEVA",
+        "pronouns": "He, Him",
         "describe": "The Gemini Deva for connecting to Google Gemini",
 
+        "owner": "Quinn Michaels",
         "creator": "Quinn Michaels",
         "created": "Thursday, May 30, 2024 - 6:45:11 PM",
         "city": "Googleplex",
@@ -38,7 +37,7 @@
         "planet": "Earth",
         "system": "Google",
 
-        "emoji": "🔍",
+        "emoji": "/public/devas/deva/emoji.png",
         "avatar": "/public/devas/deva/avatar.png",
         "background": "/public/devas/deva/background.png",
         "color": "#333333",
@@ -55,7 +54,8 @@
         "stop": "🔴 STOP",
         "exit": "🟡 EXIT",
         "done": "🟣 DONE",
-        "error": "💣 ERROR!"
+        "error": "💣 ERROR!",
+        "ready": "⭐️ Gemini Deva Ready!"
       },
       "live": {
         "profile": "deva",
@@ -65,21 +65,8 @@
         "max_chats": 10,
         "page_token": ""
       },
+      "chat": false,
       "ask": {
-        "max_tokens": 500,
-        "words": 200,
-        "history": []
-      },
-      "reply": {
-        "profile": "deva",
-        "max_tokens": 300,
-        "words": 100,
-        "history": []
-      },
-      "comment": {
-        "profile": "deva",
-        "max_tokens": 300,
-        "words": 100,
         "history": []
       },
       "art": {
