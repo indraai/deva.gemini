@@ -1,11 +1,10 @@
 {
-  "id": 6162515749966,
-  "name": "@indra.ai/geminideva",
+  "name": "@indra.ai/deva.gemini",
   "version": "0.0.1",
   "author": "Quinn Michaels",
   "license": "MIT",
-  "copyright": "2024",
-  "description": "The Open Deva handles Google Gemini in deva.world.",
+  "copyright": "(c)2025 Quinn Michaels",
+  "description": "Gemini Deva manages the connection to the Google Gemini API within Deva.world.",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -13,19 +12,95 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/indraai/GeminiDeva.git"
+    "url": "git+https://github.com/indraai/deva.gemini.git"
   },
   "keywords": [
-    "Open",
-    "Deva",
-    "deva.world"
+    "Google",
+    "Gemini",
+    "Indra.ai",
+    "Deva.cloud",
+    "Deva.space",
+    "Deva.world",
+    "Quinn Michaels"
   ],
   "bugs": {
-    "url": "https://github.com/indraai/GeminiDeva/issues"
+    "url": "https://github.com/indraai/deva.gemini/issues"
   },
-  "homepage": "https://github.com/indraai/GeminiDeva#readme",
+  "homepage": "https://deva.space/devas/gemini",
   "dependencies": {
     "@google/generative-ai": "^0.22.0",
-    "@indra.ai/deva": "^1.4.6"
+    "@indra.ai/deva": "^1.4.10"
+  },
+  "data": {
+    "agent": {
+      "id": 6730361558656,
+      "key": "gemini",
+      "prompt": {
+        "emoji": "✧",
+        "text": "Gemini",
+        "colors": {
+          "label": {
+            "R": 0,
+            "G": 150,
+            "B": 255
+          },
+          "text": {
+            "R": 101,
+            "G": 192,
+            "B": 255
+          }
+        }
+      },
+      "profile": {
+        "name": "Gemini Deva",
+        "gender": "DEVA",
+        "pronouns": "He, Him",
+        "describe": "The Gemini Deva for connecting to Google Gemini",
+        "owner": "Quinn Michaels",
+        "creator": "Quinn Michaels",
+        "created": "Thursday, May 30, 2024 - 6:45:11 PM",
+        "city": "Googleplex",
+        "region": "AlphabetCorp",
+        "nation": "United States of America",
+        "planet": "Earth",
+        "system": "Google",
+        "emoji": "/public/devas/deva/emoji.png",
+        "avatar": "/public/devas/deva/avatar.png",
+        "background": "/public/devas/deva/background.png",
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "voice": "alloy",
+        "style": "technical yet creative"
+      }
+    },
+    "vars": {
+      "messages": {
+        "init": "🟠 INIT",
+        "start": "🔵 START",
+        "enter": "🟢 ENTER",
+        "stop": "🔴 STOP",
+        "exit": "🟡 EXIT",
+        "done": "🟣 DONE",
+        "error": "💣 ERROR!",
+        "ready": "⭐️ Gemini Deva Ready!"
+      },
+      "chat": false,
+      "ask": {
+        "history": []
+      },
+      "art": {
+        "history": []
+      },
+      "context": {
+        "uid": "Gemini Deva is creating a uid",
+        "status": "Gemini Deva is viewing the status",
+        "help": "Gemini Deva is viewing the help",
+        "artist": "Gemini Deva creating",
+        "live": "Gemini Deva livechat",
+        "ask": "Gemini Deva asking",
+        "reply": "Gemini Deva reply",
+        "comment": "Gemini Deva comment"
+      }
+    }
   }
 }

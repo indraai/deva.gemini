@@ -8,9 +8,7 @@ import Deva from '@indra.ai/deva';
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 import pkg from './package.json' with {type:'json'};
-
-import data from './data.json' with {type:'json'};
-const {agent,vars} = data.DATA;
+const {agent,vars} = pkg.data;
 
 // set the __dirname
 import {dirname} from 'node:path';
@@ -97,7 +95,10 @@ const GEMINI = new Deva({
   async onReady(data, resolve) {
     const {personal} = this.security();
     this.modules.ai = new GoogleGenerativeAI(personal.key);
-    this.modules.model = this.modules.ai.getGenerativeModel({ model: personal.model});
+    this.modules.model = this.modules.ai.getGenerativeModel({
+      model: personal.model,
+      systemInstruction: `You are ${agent.profile.name} with pronounds ${agent.profile.pronouns} who is described as ${agent.profile.describe} created by ${agent.profile.creator}`,
+    });
     
     this.vars.chat = this.modules.model.startChat({
       history: [],
