@@ -29,7 +29,7 @@
   "homepage": "https://deva.space/devas/gemini",
   "dependencies": {
     "@google/generative-ai": "^0.22.0",
-    "@indra.ai/deva": "^1.4.12"
+    "@indra.ai/deva": "^1.4.13"
   },
   "data": {
     "agent": {
