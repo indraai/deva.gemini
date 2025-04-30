@@ -29,7 +29,7 @@
   "homepage": "https://deva.space/devas/gemini",
   "dependencies": {
     "@google/generative-ai": "^0.22.0",
-    "@indra.ai/deva": "^1.5.35"
+    "@indra.ai/deva": "^1.5.36"
   },
   "data": {
     "agent": {
@@ -53,24 +53,26 @@
       },
       "profile": {
         "name": "Gemini Deva",
-        "gender": "DEVA",
-        "pronouns": "He, Him",
+        "hashtag": "#GeminiDeva",
+        "title": "Gemini Deva",
+        "subtitle": "Connecting to Google Gemini",
         "describe": "The Gemini Deva for connecting to Google Gemini",
+        "tweet": "The Gemini Deva for connecting to Google Gemini",
+        "hashtags": "QuinnMichaels,IndraAI,DevaWorld,GeminiDeva",
+        "pronouns": "He, Him",
+        "gender": "DEVA",
+        "voice": "alloy",
+        "style": "technical yet creative",
+        "system": "Deva.world.gemini",
+        "layout": "default",
+        "color": "var(--color-white)",
+        "bgcolor": "var(--color-darkest-grey)",
+        "emoji": "/assets/devas/deva/emoji.png",
+        "avatar": "/assets/devas/deva/avatar.png",
+        "background": "/assets/devas/deva/background.png",
         "owner": "Quinn Michaels",
         "creator": "Quinn Michaels",
-        "created": "Thursday, May 30, 2024 - 6:45:11 PM",
-        "city": "Googleplex",
-        "region": "Alphabet Corp",
-        "nation": "United States of America",
-        "planet": "Earth",
-        "system": "Google",
-        "emoji": "/public/devas/deva/emoji.png",
-        "avatar": "/public/devas/deva/avatar.png",
-        "background": "/public/devas/deva/background.png",
-        "color": "#333333",
-        "bgcolor": "#ffffff",
-        "voice": "alloy",
-        "style": "technical yet creative"
+        "created": "Thursday, May 30, 2024 - 6:45:11 PM"
       }
     },
     "vars": {
@@ -82,7 +84,7 @@
         "exit": "🟡 EXIT",
         "done": "🟣 DONE",
         "error": "💣 ERROR!",
-        "ready": "⭐️ Gemini Deva Ready!"
+        "ready": "⭐️ READY!"
       },
       "chat": false,
       "ask": {
