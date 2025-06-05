@@ -1,11 +1,13 @@
+::BEGIN:MAIN
 # {{profile.name}}
 
 {{profile}}
 
 ::begin:deva-methods
-### Chat
+## Chat
 p: The chat method enabled conversations with Gemini. This method also provides a feecting formatted response.
 example: #chat chat [prompt]
+::end:deva-methods
 
 ---
 
@@ -15,3 +17,4 @@ example: #chat chat [prompt]
 #bg = {{profile.background}}
 copyright: (c)2025 Quinn Michaels
 ::end:hidden
+::END:MAIN
